@@ -25,8 +25,9 @@ coin_blacklist: []
 developer_blacklist: []
 
 # Telegram + BonkBot
-telegram_bot_token: "8477611657:AAGSYKflxsCad-aAogh8g1tAedLW3BO4Vyc"
-telegram_chat_id: "7244909646"
-bonkbot_username: "@binaroptionbot"  # BonkBot's Telegram handle
+telegram_bot_token: ""
+telegram_chat_id: ""
+bonkbot_username: ""  # BonkBot's Telegram handle
 auto_trade_enabled: true
 trade_amount_sol:
+
