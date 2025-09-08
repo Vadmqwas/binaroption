@@ -1,0 +1,32 @@
+fetch_interval_seconds: 60
+database_path: "./data/coins.db"
+
+# APIs
+dexscreener_api: "https://api.dexscreener.com/token-profiles/latest/v1"
+pumpfun_api: "https://api.pumpfun.io/coins"
+pocket_universe_api_key: ""
+rugcheck:
+  api_url: "https://api.rugcheck.xyz/v1/tokens"
+  block_if_not_good: true
+  block_if_bundled_supply: true
+
+# Detection thresholds
+pump_percentage: 50
+rug_drop_percentage: 90
+tier1_volume_usd: 500000
+
+# Filters
+min_price_usd: 0.0001
+max_price_usd: 100
+min_volume_usd: 1000
+
+# Blacklists
+coin_blacklist: []
+developer_blacklist: []
+
+# Telegram + BonkBot
+telegram_bot_token: "8477611657:AAGSYKflxsCad-aAogh8g1tAedLW3BO4Vyc"
+telegram_chat_id: "7244909646"
+bonkbot_username: "@binaroptionbot"  # BonkBot's Telegram handle
+auto_trade_enabled: true
+trade_amount_sol:
